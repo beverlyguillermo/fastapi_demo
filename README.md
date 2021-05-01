@@ -1,6 +1,6 @@
 # FastApi Demo
 
-Nothing much then me playing around with (FastAPI)[https://fastapi.tiangolo.com]
+Nothing much then me playing around with [FastAPI](https://fastapi.tiangolo.com)
 
 ##  Development
 
