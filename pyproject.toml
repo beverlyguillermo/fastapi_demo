@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "momo"
+version = "0.1.0"
+description = ""
+authors = ["Beverly Guillermo <beverly.guillermo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.63.0"
+databases = "^0.4.3"
+dependency-injector = "^4.32.2"
+pydantic = "^1.8.1"
+uvicorn = "^0.13.4"
+
+[tool.poetry.dev-dependencies]
+aiosqlite = "^0.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
