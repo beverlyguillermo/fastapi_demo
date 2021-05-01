@@ -6,15 +6,20 @@ authors = ["Beverly Guillermo <beverly.guillermo@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "^0.63.0"
-databases = "^0.4.3"
-dependency-injector = "^4.32.2"
-pydantic = "^1.8.1"
-uvicorn = "^0.13.4"
+fastapi = "^0.63.0" # FastApi Framework
+databases = "^0.4.3" # Database Connections
+dependency-injector = "^4.32.2" # Dependency Injection
+pydantic = "^1.8.1" # Validations
+uvicorn = "^0.13.4" # Python App Server
 
 [tool.poetry.dev-dependencies]
-aiosqlite = "^0.17.0"
-pytest = "^6.2.3"
+aiosqlite = "^0.17.0" # SQL Lite for tests?
+pytest = "^6.2.3" # Test Framework
+mypy = "^0.812" # Static Type Checker
+flake8 = "^3.9.1" # Code Linting
+autoflake = "^1.4" # Remove importing and unused variables
+isort = "^5.8.0" # Sort imports
+black = "^21.4b2" # Python Code formatting
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
