@@ -9,8 +9,8 @@ RUN apk add --update --no-cache --virtual .build-deps \
   cargo \
   git
 
-RUN python -m pip install --upgrade pip && \
-    pip install poetry
+RUN python -m pip install --upgrade pip \
+    && pip install poetry
 
 RUN mkdir /src
 WORKDIR /src

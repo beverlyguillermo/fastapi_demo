@@ -14,3 +14,16 @@ See README in the docker folder to use docker
 
 *python library*
 - poetry
+
+### Set up environment
+
+```shell
+$ python3 -m venv venv
+...
+$ . venv/bin/activate
+...
+(venv) $ python -m pip install --upgrade pip
+(venv) $ pip install poetry
+(venv) $ poetry install
+```
+
