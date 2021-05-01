@@ -1,6 +1,7 @@
 # FastApi Demo
 
 Nothing much then me playing around with [FastAPI](https://fastapi.tiangolo.com)
+Playing around with configurations for a project.
 
 ##  Development
 
@@ -25,5 +26,10 @@ $ . venv/bin/activate
 (venv) $ python -m pip install --upgrade pip
 (venv) $ pip install poetry
 (venv) $ poetry install
+```
+
+Leave the virtual environment
+```shell
+(venv) $ deactivate
 ```
 
