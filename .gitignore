@@ -1,4 +1,7 @@
+.DS_Store
+
 # Ignore user editors
+.devcontainer
 .vscode
 .intellij
 
