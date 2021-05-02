@@ -13,19 +13,13 @@ See README in the docker folder to use docker
 - homebrew
 - asdf (via homebrew)
 
-*python library*
-- poetry
+*python*
+
 
 ### Set up environment
 
 ```shell
-$ python3 -m venv venv
-...
-$ . venv/bin/activate
-...
-(venv) $ python -m pip install --upgrade pip
-(venv) $ pip install poetry
-(venv) $ poetry install
+$ . /venv/bin/activate
 ```
 
 Leave the virtual environment

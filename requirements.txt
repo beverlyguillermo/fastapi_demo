@@ -1,0 +1,5 @@
+fastapi # FastApi Framework
+databases # Database Connections
+dependency-injector  # Dependency Injection
+pydantic # Validations
+uvicorn # Python App Server

@@ -1,13 +1,14 @@
 version: "3.9"
 services:
   fastapi:
-    build: ./docker/development
-    command: sh -c "tail -f /dev/null"
+    build:
+      context: .
+      dockerfile: ./docker/development/Dockerfile
     ports:
       - 8000:8000
     volumes:
       - .:/src
-      - pycache:/root/.cache/pypoetry
+      - pycache:/venv
 
 volumes:
   pycache:
